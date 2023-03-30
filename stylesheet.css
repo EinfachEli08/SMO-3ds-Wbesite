@@ -49,6 +49,7 @@ body {
 .s1 .infotext .infobutton{
     
     margin-top: 10px;
+    color: white;
     background-color: #cc0101;
     border-color: #a10000;
     border-radius: 10px;
@@ -68,7 +69,6 @@ body {
     padding: 20px;
 }
 
-/* make better*/
 .s2 .title .center h1
 {
    padding-left: calc(37.49vw) ;
@@ -77,32 +77,74 @@ body {
 {
    padding-left: calc(43vw) ;
 }
-.s2 .moai{
+.moai{
     float:left; 
     padding-right:100px;
     padding-left: 100px;
     transform: scaleX(-1);
     height: 400px;
 }
-.s2 .get{
+.get{
     margin: 20px;
     background-color: #ffffff;
-    padding: 10000px;
+    padding: 20px;
 }
-.s2 .get tbody tr button{
-    margin-top: 10px;
+
+.tb {
+    padding: 20px;
+    margin: 20px;
+}
+
+th {
+  padding: 10px;
+  margin:10px;
+}
+
+td {
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+}
+
+tr button{
+    color: white;
     background-color: #cc0101;
     border-color: #a10000;
-    border-radius: 10px;
+    border-radius: 20px;
     border-style:solid;
     border-width: 3px;
+    margin: 20px;
 }
 
-.s2	.get thead tr th{
-    padding-bottom: 20px;
+.s2	.get thead tr {
+    padding: 20px;
+    margin: 20px;
 }
 
+.s3 .title .center h1{
+   padding-left: calc(37.49vw) ;
+}
 
- 
+.s3 .title .center h3{
+   padding-left: calc(39.5vw) ;
+}
 
+.s3 .title .center a{
+    color: white;
+    text-decoration: none;
+    background-color: #cc0101;
+    border-color: #a10000;
+    border-radius: 20px;
+    border-style:solid;
+    border-width: 10px;
+    margin: 20px;
+}
 
+.s3 .bottom-screen{
+    position: absolute;
+    z-index: -1;
+    
+    transform: scaleY(-1);
+}
